@@ -43,6 +43,14 @@ class MessageReaction(Enum):
     ANGRY = "😠"
     YES = "👍"
     NO = "👎"
+    FAX = "📠"
+    CAP = "🧢"
+    LOL = "😂"
+    DOG = "🐶"
+    FLUSHED = "😳"
+    SOB = "😭"
+    QUESTION = "❓"
+    SURPRISED = "😲"
 
 
 @attr.s(cmp=False)
