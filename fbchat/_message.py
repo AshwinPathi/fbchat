@@ -51,6 +51,12 @@ class MessageReaction(Enum):
     SOB = "😭"
     QUESTION = "❓"
     SURPRISED = "😲"
+    ROFL = "🤣"
+    CRINGE = "😬"
+    BASED = "🤓"
+    MAD = "🤬"
+    ANNOYED = "🙄"
+    
 
 
 @attr.s(cmp=False)
