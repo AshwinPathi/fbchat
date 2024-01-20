@@ -406,7 +406,7 @@ def graphql_to_extensible_attachment(data):
     elif _type in ["ExternalUrl", "Story"]:
         return _attachment.ShareAttachment._from_graphql(story)
     # Added by me, just adds raw extensible message attachment to the message.
-    elif _type in ["ExtensibleMessageAttachment"]:
+    elif _type in ["MessengerBusinessMessage"]:
         return story
 
     return None
